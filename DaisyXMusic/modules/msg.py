@@ -18,7 +18,7 @@ from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
-    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+    START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.Code edited by[ɪQʙᴀʟ](t.me/iet_owner) 👩‍💻.\n\n✅ Send me /help for more info."
     HELP_MSG = [
         ".",
         f"""
@@ -26,7 +26,7 @@ class Messages:
 
 ⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions\n\n© @IET_Owner**
 """,
         f"""
 **Setting up**
@@ -40,6 +40,8 @@ class Messages:
 1) Make me admin of your channel 
 2) Send /userbotjoinchannel in linked group
 3) Now send commands in linked group
+
+© @IET_Owner
 """,
         f"""
 **Commands**
@@ -63,6 +65,8 @@ class Messages:
 - /playlist: Shows playlist
 
 *Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.
+
+© @IET_Owner
 """,
         f"""
 **=>> Channel Music Play 🛠**
@@ -89,6 +93,8 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 3) Add bot as Channel admin with full perms
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group. (remember to use /ytplay instead /play)
+
+© @IET_Owner
 """,
         f"""
 **=>> More tools 🧑‍🔧**
@@ -96,6 +102,8 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+
+© @IET_Owner
 """,
         f"""
 **=>> Song Download 🎸**
@@ -109,6 +117,8 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 
 - /search [song name]: Search youtube for songs
 - /lyrics [song name]: Get song lyrics
+
+© @IET_Owner
 """,
         f"""
 **=>> Commands for Sudo Users ⚔️**
@@ -118,5 +128,6 @@ channel is also can be used instead of c ( /cplay = /channelplay )
  - /pmpermit [on/off] - enable/disable pmpermit message
 *Sudo Users can execute any command in any groups
 
+© @IET_Owner
 """,
     ]
