@@ -53,7 +53,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
-                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")],
+                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://t.me/IET_Owner/724")],
             ]
         ),
         reply_to_message_id=message.message_id,
@@ -129,7 +129,7 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text="🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}"
+                    text="🛠 Source Code 🛠", url=f"https://t.me/IET_Owner/724"
                 )
             ],
             [InlineKeyboardButton(text="◀️", callback_data=f"help+{pos-1}")],
@@ -152,7 +152,7 @@ async def ghelp(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🟡 Click here for help 🟡",
+                        "💡 Don't Click here for help 🟡",
                         url=f"https://t.me/{BOT_USERNAME}?start",
                     )
                 ]
