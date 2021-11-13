@@ -53,7 +53,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                 ],
-                [InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://t.me/IET_Owner/724")],
+                [InlineKeyboardButton("🎁 Help 🎁", url=f"http://t.me/{BOT_USERNAME}?start=help")],
             ]
         ),
         reply_to_message_id=message.message_id,
